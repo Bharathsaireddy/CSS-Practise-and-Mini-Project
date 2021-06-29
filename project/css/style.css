@@ -1,0 +1,85 @@
+body{
+    background-color:#E6CCB2;
+    color:#14213D;
+    font-size:1.2em;
+    font-family:'Raleway', sans-serif;
+    margin:0px;
+    line-height:1.6em;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+#main-header{
+    background-color:#A7C7C7;
+    color:#063838;
+}
+#navbar{
+    background-color:#818F8F ;
+    color:#AD5431;
+}
+#navbar ul{
+    padding: 0px;
+    list-style:none;
+}
+#navbar li{
+    display:inline;
+}
+#navbar a{
+    text-decoration:none;
+    color:#D7E889;
+    font-size: 1.8em;
+    padding-right:15px
+}
+#showcase{
+    background-image: url(/project/images/Lawrencium.jpg);
+    background-position: center center;
+    min-height:300px;
+    margin-bottom:30px;
+  }
+#showcase h1{
+    text-align:center;
+    color:#D7E889 ;
+    padding-top: 30px;
+    line-height:1.6em;
+}
+#main{
+    float:left;
+    width: 70%;
+    padding:0 30px;
+    box-sizing: border-box;
+    background-color:#2D2E27 ;
+    color:#EAFFC9;
+    text-align: justify;
+}
+#main h1{
+    color:#EAFFC9;
+    background-color:#AD5431;
+}
+#sidebar {
+    background-color: #818F8F;
+    color: #EAFFC9;
+    padding: 20px;
+    float:right;
+    box-sizing: border-box;
+    width:30%;
+    
+}
+#main-footer{
+     background-color:#BFBFBF ;
+     color:#00689C;
+     padding:20px;
+     margin-top:30px;
+     text-align:center;
+}
+@media(max-width:600px){
+    #main{
+        float: none;
+        width:100%;
+    }
+    #sidebar{
+        float:none;
+        width: 100%;
+    }
+}
